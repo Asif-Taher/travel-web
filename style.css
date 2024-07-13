@@ -1,0 +1,547 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+ background-color:olivedrab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+   
+
+}
+
+.logo{
+
+    width: 140px;
+    cursor: pointer;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+
+    margin: 10px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #fff;
+   translate: 2s;
+   padding: 16px 32px;
+   transition: 0.3s;
+   border-radius: 5px;
+}
+.nav-list li a:hover{
+  
+  background-color: red;
+  color: white;
+}
+.Register-btn{
+    background: #fff;
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.Register-btn:hover{
+
+    background: red;
+    color: #fff;
+
+}
+
+/* Nav code end here */
+
+/* container code is start here */
+
+.container{
+
+    padding: 0 7%;
+}
+.container h1{
+
+    font-size: 4vw;
+    font-weight: 500;
+    padding-top: 22%;
+    color: #fff;
+    text-align: center;
+}
+/* container code is end here */
+.search-bar{
+
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding:6px 10px 6px 30px;
+    border-radius: 20px;
+}
+.search-bar form{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+        display: block;
+        outline: none;
+        background: transparent;
+    border: 0;
+}
+.search-bar form button{
+
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+}
+.search-bar form button img{
+    width: 15px;
+    margin-top: 7px;
+}
+
+.location-input{
+
+    flex: 1;
+}
+.search-bar form label{
+
+    font-weight: 600;
+}
+/* Container -two code is start her */
+
+.container-two{
+
+    padding: 0 7%;
+
+}
+.sub-title{
+
+    margin: 50px 0 30px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}
+.Exclusive{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.Exclusive div img{
+
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Exclusive div{
+
+    padding: 15px 10px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.36);
+    border-radius: 5px;
+}
+/* Container -two code is end her */
+.tranding{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+
+}
+.tranding div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.tranding h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+.cta{
+
+    background-image: url(images/banner-2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #6c4444;
+    margin: 80px 0;
+}
+.cta h3{
+
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 5.3vw;
+    color: #fff;
+}
+.cta p{
+    color: #fff;
+    font-size: 19px;
+    margin: 10px 0;
+}
+.cta-btn{
+
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/* Travellars story */
+.stories{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+
+}
+.stories div img{
+
+    border-radius: 10px;
+    width: 100%;
+}
+.stories div{
+    position: relative;
+    text-align: center;
+}
+.stories p{
+
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 26p;
+}
+
+.start-btn{
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    padding: 20px 35px;
+    border-radius: 10px;
+    margin: 60px auto;
+    width: 80%;
+    max-width: 350px;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+}
+.about-msg{
+   text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+}
+.about-msg h2{
+
+    margin-bottom: 10px;
+    }
+
+.footer{
+
+    margin: 80px 0 10px;
+    text-align: center;
+}
+nav .fa-bars{
+
+    display: none;
+}    
+
+@media only screen and(max-width:700px){
+
+
+    .logo{
+
+        position: fixed;
+        top: 4%;
+        left: 7%;
+        
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        padding: 100px 7% 0;
+        background: #000;
+               
+    }
+    .Register-btn{
+
+        margin: 15px 0 30px;
+        display: inline-block;
+    }
+    nav .fa-bars{
+
+        display: block;
+        position: fixed;
+        top: 4%;
+        right: 7%;
+        color: #fff;
+        font-size: 28px;
+
+    }  
+}   
+
+
+/* Reginster page start */
+
+
+.container-1 {
+    height: 450px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 8px 8px 20px rgb(128, 128, 128);
+    position: relative;
+    overflow: hidden;
+    left: 50%;
+    margin: 20px 10px;
+}
+ 
+.btn {
+    height: 60px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 30px rgb(254, 215, 188);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+.login,
+.signup {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+ 
+.slider {
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,
+            rgb(255, 195, 110),
+            rgb(255, 146, 91));
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    transition: all 0.5s ease-in-out;
+}
+ 
+.moveslider {
+    left: 250px;
+}
+ 
+.form-section {
+    height: 350px;
+    width: 8000px;
+    padding: 20px 0;
+    display: flex;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    left: 0px;
+}
+ 
+.form-section-move {
+    left: -500px;
+}
+ 
+.login-box,
+.signup-box {
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+}
+ 
+.login-box {
+    gap: 50px;
+}
+ 
+.signup-box {
+    gap: 30px;
+}
+ 
+.ele {
+    height: 60px;
+    width: 400px;
+    outline: none;
+    border: none;
+    color: rgb(77, 77, 77);
+    background-color: rgb(240, 240, 240);
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+ 
+.clkbtn {
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,
+            rgb(255, 195, 110),
+            rgb(255, 146, 91));
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+ 
+/* For Responsiveness of the page */
+ 
+@media screen and (max-width: 650px) {
+    .container {
+        height: 600px;
+        width: 300px;
+    }
+ 
+    .title {
+        font-size: 15px;
+    }
+ 
+    .btn {
+        height: 50px;
+        width: 200px;
+        margin: 20px auto;
+    }
+ 
+    .login,
+    .signup {
+        font-size: 19px;
+    }
+ 
+    .slider {
+        height: 50px;
+        width: 100px;
+        left: 50px;
+    }
+ 
+    .moveslider {
+        left: 150px;
+    }
+ 
+    .form-section {
+        height: 500px;
+        width: 600px;
+    }
+ 
+    .form-section-move {
+        left: -300px;
+    }
+ 
+    .login-box,
+    .signup-box {
+        height: 100%;
+        width: 300px;
+    }
+ 
+    .ele {
+        height: 50px;
+        width: 250px;
+        font-size: 15px;
+    }
+ 
+    .clkbtn {
+        height: 50px;
+        width: 130px;
+        font-size: 19px;
+    }
+}
+ 
+@media screen and (max-width: 320px) {
+    .container {
+        height: 600px;
+        width: 250px;
+    }
+ 
+    .heading {
+        font-size: 30px;
+    }
+ 
+    .title {
+        font-size: 10px;
+    }
+ 
+    .btn {
+        height: 50px;
+        width: 200px;
+        margin: 20px auto;
+    }
+ 
+    .login,
+    .signup {
+        font-size: 19px;
+    }
+ 
+    .slider {
+        height: 50px;
+        width: 100px;
+        left: 27px;
+    }
+ 
+    .moveslider {
+        left: 127px;
+    }
+ 
+    .form-section {
+        height: 500px;
+        width: 500px;
+    }
+ 
+    .form-section-move {
+        left: -250px;
+    }
+ 
+    .login-box,
+    .signup-box {
+        height: 100%;
+        width: 250px;
+    }
+ 
+    .ele {
+        height: 50px;
+        width: 220px;
+        font-size: 15px;
+    }
+ 
+    .clkbtn {
+        height: 50px;
+        width: 130px;
+        font-size: 19px;
+    }
+}
+/* Reginster page end */
+
+
